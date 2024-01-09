@@ -51,10 +51,12 @@ public class Main {
             }
             if(counter == 0){
                 System.out.println("YOU WON!" + "   Johnny is FREE!");
+                System.out.println("The word was " + a.toUpperCase());
                 break;
             }
             if(i == 7){
                 System.out.println("GAME OVER, YOU ARE OUT OF GUESSES");
+                System.out.println("The word was " + a.toUpperCase());
                 break;
             }
         }
